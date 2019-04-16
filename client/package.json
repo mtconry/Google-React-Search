@@ -1,17 +1,19 @@
 {
-  "name": "mern",
+  "name": "client",
   "version": "0.1.0",
-  "description": "Mern Demo",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "idb": "^4.0.3",
     "mongoose": "^5.5.1",
+    "node-sass": "^4.11.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-scroll": "^1.7.11"
   },
   "scripts": {
     "start": "react-scripts start",
